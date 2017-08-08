@@ -1,0 +1,8 @@
+version: '2'
+
+services:
+  dockertest:
+    image: dockertest
+    build:
+      context: ./DockerTest
+      dockerfile: Dockerfile
